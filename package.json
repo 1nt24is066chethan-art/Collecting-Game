@@ -1,0 +1,22 @@
+{
+  "name": "collect-game",
+  "version": "1.0.0",
+  "type": "module",
+
+  "scripts": {
+    "dev:client": "vite client --port 5173",
+    "dev:server": "node server/index.js",
+    "build": "vite build client --outDir dist"
+  },
+
+  "dependencies": {
+    "express": "^5.0.0",
+    "socket.io": "^4.0.0",
+    "socket.io-client": "^4.0.0",
+    "three": "^0.160.0"
+  },
+
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
